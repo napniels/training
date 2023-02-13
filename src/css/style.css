@@ -115,7 +115,8 @@ span {
     background-color: var(--blue);
     color: var(--white);
     text-align: center;
-    padding: 45px 160px;
+    padding: 60px 160px;
+    line-height: 30px;
 }
 
 #div1 h2{
@@ -391,6 +392,7 @@ li {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    padding-bottom: 40px;
 }
 
 #gridarea {
