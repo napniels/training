@@ -132,7 +132,7 @@ input {
   line-height: 22px;
 }
 
-#partners h3 {
+#flex4 h3 {
   font-size: 50px;
   line-height: 60px;
   font-family: "Bebas";
@@ -283,7 +283,7 @@ li {
   padding: 20px 100px;
 }
 
-#flex4 {
+#partners {
   display: flex;
   align-items: center;
 }
@@ -305,11 +305,11 @@ li {
   padding-right: 40px;
 }
 
-#fleximg2 {
+/* #fleximg2 {
   display: flex;
   flex-direction: column;
   align-content: stretch;
-}
+} */
 
 #flex_text_3 {
   padding: 20px;
@@ -334,7 +334,7 @@ li {
 }
 
 .flex_item {
-  flex: 1fr;
+  flex: 50%;
 }
 
 #alttext {
@@ -408,7 +408,7 @@ li {
   line-height: 30px;
 }
 
-#partners {
+#flex4 {
   padding: 3% 10%;
 }
 
