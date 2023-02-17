@@ -3,13 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Page Title</title>
+    <title>W3Wijnen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
       rel="stylesheet"
       type="text/css"
       media="screen"
       href="src/css/style.css"
+    />
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" 
+        integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
     />
   </head>
   <body>
@@ -32,13 +39,13 @@
         <!-- End floating text box -->
 
         <!-- Banner image -->
-        <img src="src/img/banner1.png" id="banner" />
+        <img src="src/img/banner1.jpg" id="banner" />
       </header>
 
       <!-- Flexbox 1 with 2 items -->
       <div id="flex1">
         <!-- Flexbox 1 left side -->
-        <div id="flex_item_1" class="flex_item">
+        <div id="flex_item_1" class="flex_item_large">
           <h2>Wat is de avondslok?</h2>
           <h3>
             Wat als grap begon, is in 1,5 dag werkelijkheid geworden. Met een
@@ -55,8 +62,8 @@
         </div>
 
         <!-- Flexbox 1 right side -->
-        <div id="flex_img_1" class="flex_item">
-          <img src="src/img/img1.jpg" id="flex2img" />
+        <div class="flex_item_small">
+          <img src="src/img/img.jpg" id="flex_1_img"/>
         </div>
       </div>
       <!-- End of flexbox 1 -->
@@ -66,27 +73,27 @@
         <h2>Ontmoet in deze virtuele ruimtes</h2>
         <div id="gridarea">
           <div class="griditem">
-            <img src="src/img/img2.jpg" id="gridimage" /><br />
+            <img src="src/img/grid/grid1.jpg" id="gridimage" /><br />
             Centrale ruimte met bar
           </div>
           <div class="griditem">
-            <img src="src/img/img2.jpg" id="gridimage" /><br />
+            <img src="src/img/grid/grid2.jpg" id="gridimage" /><br />
             Horecaplein
           </div>
           <div class="griditem">
-            <img src="src/img/img2.jpg" id="gridimage" /><br />
+            <img src="src/img/grid/grid3.jpg" id="gridimage" /><br />
             Dj-ruimte
           </div>
           <div class="griditem">
-            <img src="src/img/img2.jpg" id="gridimage" /><br />
+            <img src="src/img/grid/grid4.jpg" id="gridimage" /><br />
             Ontmoetings-plekken
           </div>
           <div class="griditem">
-            <img src="src/img/img2.jpg" id="gridimage" /><br />
+            <img src="src/img/grid/grid5.jpg" id="gridimage" /><br />
             Quiz-ruimte
           </div>
           <div class="griditem">
-            <img src="src/img/img2.jpg" id="gridimage" /><br />
+            <img src="src/img/grid/grid6.jpg" id="gridimage" /><br />
             Wijnproef-ruimte
           </div>
         </div>
@@ -96,11 +103,11 @@
       <!-- Flexbox 2 with 2 items -->
       <div id="flex2">
         <!-- Flexbox 2 left side -->
-        <div id="fleximg" class="flex_item">
-          <img src="src/img/img1.jpg" />
+        <div id="flex_img" class="flex_item">
+          <img src="src/img/img2.jpg" />
         </div>
         <!-- Flexbox 2 right side -->
-        <div id="flex_2_text">
+        <div id="flex_2_right">
           <h2>Hoe werkt het?</h2>
           <div id="flex_text_2" class="flex_item">
             <h3>
@@ -146,6 +153,7 @@
         <div id="flex_text_3">
           <h2>Doe jij ook gezellig mee?</h2>
           <h2 id="alttext">Meld je hier dan aan!</h2>
+          <!-- Text input fields -->
           <div id="flex_input">
             <div class="flex_input_item-1 input_name">
               <label>
@@ -170,6 +178,7 @@
               </label>
             </div>
           </div>
+          <!-- Checkbox and button -->
           <div id="flex_agree">
             <input type="checkbox" id="checkbox" autocomplete="off" />
             <label for="checkbox">
@@ -187,10 +196,10 @@
       <div id="flex4">
         <h3>Onze partners</h3>
         <div id="partners">
-          <img src="src/img/partners/1.jpg" class="partner-img" />
-          <img src="src/img/partners/2.jpg" class="partner-img" />
-          <img src="src/img/partners/3.jpg" class="partner-img" />
-          <img src="src/img/partners/4.jpg" class="partner-img" />
+          <a href="https://www.w3wijnen.nl/" target="_blank"><img src="src/img/partners/1.jpg" class="partner-img" alt="W3Wijnen"/></a>
+          <a href="https://flooris.nl/" target="_blank"><img src="src/img/partners/2.jpg" class="partner-img" alt="Flooris"/></a>
+          <a href="https://creativecycle.nl/" target="_blank"><img src="src/img/partners/3.jpg" class="partner-img" alt="Creative cycle"/></a>
+          <a href="https://slidefair.com/nl/nl-home/" target="_blank"><img src="src/img/partners/4.jpg" class="partner-img" alt="Slidefair"/></a>
         </div>
       </div>
       <!-- End of flexbox 4 -->
